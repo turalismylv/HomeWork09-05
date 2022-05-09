@@ -1,0 +1,133 @@
+using System;
+
+namespace firstConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*Task - 1
+Array-də elementlərdən ən azı 1-i isdifadeci terefinden daxil edilen n ədədindən böyükdürsə true əks halda false çap
+            int[] arr = { 1, 2, 3, 4, 5 };
+            int max = arr[0];
+            int number = 4;
+            bool exsist = true;
+            for (int i=0;i<arr.Length;i++) {
+
+                if (arr[i]>max) {
+                    max = arr[i];
+                }
+            }
+            if (max > number)
+            {
+                Console.WriteLine(exsist);
+            }
+            else {
+                Console.WriteLine(!exsist);
+            }
+        } 
+            Task - 2
+            Verilmiş Ədədin cüt rəqəmlərini çap edən alqoritmi qurun;
+            int num = 22119874;
+            int even;
+
+            while (num > 0)
+            {
+                even = num % 10;
+                num = num / 10;
+                if (even % 2 == 0)
+                {
+                    Console.WriteLine(even);
+                }
+
+            }
+            Task - 3
+             Array - də cut index-də duran elementlərin ededi ortasini tapmaq; */
+
+
+
+            /* int[] number = { 10, 13, 20, 31, 40 };
+            int sum = 0;
+            int edsayi = 0;
+            int result = 0;
+            for (int i = 0; i < number.Length; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    sum += number[i];
+                    edsayi++;
+                    result = sum / edsayi;
+                }
+
+            }
+            Console.WriteLine(result);
+            
+            Task - 4
+             Arraydəki elementləri yuxarldan aşağı tərsinə çap edən algoritm yazın
+
+
+            int[] num = { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
+            int[] revnum = new int[num.Length];
+            int j = 0;
+            for (int i = num.Length - 1; i >= 0; i--)
+            {
+                revnum[j] = num[i];
+                Console.WriteLine(revnum[j]);
+                j++;
+            }
+
+            Task -5       
+            int[] arr = { 12, 15, 129, 2012 };
+            
+            
+            int mertebe = 0;
+            for (int i=0;i<arr.Length;i++) {
+
+
+                while (arr[i]>0) {
+
+                    mertebe = arr[i] %10 ;
+                    
+                    arr[i] = (arr[i] - arr[i]%10) / 10;
+                    
+
+                    Console.WriteLine(mertebe);
+
+            Task - 6
+               Verilmis arrayda olan maksimum ededi cap edin - meselen[1, 2, 3, 7, 6, 12, 5] - > cavab = 12
+
+
+            int[] arr = { 2, 5, 6, 7, 9, 10 };
+            int max = arr[0];
+            for (int i=0;i<arr.Length;i++) {
+                if (arr[i]> max ) {
+                    max = arr[i];
+                }
+            
+            }
+            Console.WriteLine(max);
+
+
+            Task - 7
+Verilmis arrayda olan minimum ededi cap edin - meselen[1, 2, 3, 7, 6, 12, 5] - > cavab = 1
+
+            int[] arr = { 5, 6, 7, 9, 10,1 };
+            int min = arr[0];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] < min )
+                {
+                    min = arr[i];
+                }
+
+            }
+            Console.WriteLine(min); */
+            
+
+
+
+        }
+
+    }
+            
+        }
